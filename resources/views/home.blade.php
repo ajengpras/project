@@ -1,23 +1,25 @@
-@extends('layouts.app')
+@extends('adminlte::page')
+
+@section('title', 'AdminLTE')
+
+@section('content_header')
+<div class="container">
+<h1 class="display-3">WELCOME !! </h1>
+</div>
+@stop
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+    <div class="row">
+        <div class="page-wrapper-form">
+            <div class="col-lg-12">
+               <!--konten pilihan start-->
+                <div class="jumbotron">
+                    <div class="container">
+                        <p class="lead">Happy working ! Use this system for the benefit of product sales and marketing. Increase Turnover by multiplying posts, share social media and advertising</p>
+                        <p>Support Team</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-@endsection
+@stop
