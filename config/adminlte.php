@@ -119,11 +119,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Produk',
-                    'url'  => 'http://localhost/magang/public/admin/product/index',
+                    'url'  => 'http://localhost/project/public/admin/product/index',
                 ],
                 [
                     'text' => 'Tambah Produk',
-                    'url'  => 'http://localhost/magang/public/admin/product/create',
+                    'url'  => 'http://localhost/project/public/admin/product/create',
                 ],
             ],
         ],
@@ -133,7 +133,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'List Order',
-                    'url'  => 'http://localhost/magang/public/admin/order/index',
+                    'url'  => 'http://localhost/project/public/admin/order/index',
                 ],
             ],
         ],
